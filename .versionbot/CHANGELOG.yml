@@ -1,4 +1,467 @@
 - commits:
+    - subject: 'docs: Fix some formatting in ARCHITECTURE.md'
+      hash: 09934339a20ee9799a4fa64ada837476061edc9f
+      body: ''
+      footer:
+        Change-type: minor
+        change-type: minor
+      author: Doron Behar
+      nested: []
+    - subject: 'docs: more updates'
+      hash: 78732dd482211425f5ce483ddd1c8faf912356d8
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Tomás Migone <tomas@balena.io>
+        signed-off-by: Tomás Migone <tomas@balena.io>
+      author: Tomás Migone
+      nested: []
+    - subject: 'supervisor: on mode change, stop services before starting others'
+      hash: f5dd7541f5f6c56c678928b217b0efd82fdf36c5
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Tomás Migone <tomas@balena.io>
+        signed-off-by: Tomás Migone <tomas@balena.io>
+      author: Tomás Migone
+      nested: []
+    - subject: 'docs: Fixed some typos, added arch info.'
+      hash: 66a0137d665e67a44fd8fd39f5a64e6c366fb431
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Tomás Migone <tomas@balena.io>
+        signed-off-by: Tomás Migone <tomas@balena.io>
+      author: Tomás Migone
+      nested: []
+    - subject: 'supervisor: restart mr client only when master changes'
+      hash: dddabde0c2768e2bbae7892fa09be55e6eed0e6c
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Tomás Migone <tomas@balena.io>
+        signed-off-by: Tomás Migone <tomas@balena.io>
+      author: Tomás Migone
+      nested: []
+    - subject: 'supervisor: better handling of mode changes'
+      hash: 10107297599f2c4a5429c366901239aee03c8f9d
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Tomás Migone <tomas@balena.io>
+        signed-off-by: Tomás Migone <tomas@balena.io>
+      author: Tomás Migone
+      nested: []
+    - subject: 'multiroom: remove chunk messages from client log'
+      hash: 971820f110c8553a2579ad4293fb1268676bbe2a
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Tomás Migone <tomas@balena.io>
+        signed-off-by: Tomás Migone <tomas@balena.io>
+      author: Tomás Migone
+      nested: []
+    - subject: 'docs: add partial architecture information'
+      hash: 45ed1ea9ba33d36fdc45aae38a7336d64296ea95
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Tomás Migone <tomas@balena.io>
+        signed-off-by: Tomás Migone <tomas@balena.io>
+      author: Tomás Migone
+      nested: []
+    - subject: 'spotify: add volume normalisation and bitrate options'
+      hash: 3d01c07a279c48d744fa6c7a70f828578ea8e417
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Tomás Migone <tomas@balena.io>
+        signed-off-by: Tomás Migone <tomas@balena.io>
+      author: Tomás Migone
+      nested: []
+    - subject: 'docs: rewrite docs for 3.0'
+      hash: 0ca63eb3352e12e852c47f2f8dca58b799826cf0
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Tomás Migone <tomas@balena.io>
+        signed-off-by: Tomás Migone <tomas@balena.io>
+      author: Tomás Migone
+      nested: []
+    - subject: 'supervisor: add debug option'
+      hash: 6e1f8aa97263c8c8d57a8d76ed475277ed54cdb7
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Tomás Migone <tomas@balena.io>
+        signed-off-by: Tomás Migone <tomas@balena.io>
+      author: Tomás Migone
+      nested: []
+    - subject: 'multiroom: fix blacklisted platforms for multiroom server'
+      hash: e440c2b949cbffd7a9055c5f31ba1b067007927a
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Tomás Migone <tomas@balena.io>
+        signed-off-by: Tomás Migone <tomas@balena.io>
+      author: Tomás Migone
+      nested: []
+    - subject: 'housekeeping: tidy up env vars and log messages'
+      hash: c0ef29a1dcf69ba4b93538e0d61ca3ad8ae3afae
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Tomás Migone <tomas@balena.io>
+        signed-off-by: Tomás Migone <tomas@balena.io>
+      author: Tomás Migone
+      nested: []
+    - subject: 'plugin: Added soundcard input as audio source'
+      hash: c17166dc391f524b92482c30896d2b646affa643
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Tomás Migone <tomas@balena.io>
+        signed-off-by: Tomás Migone <tomas@balena.io>
+      author: Tomás Migone
+      nested: []
+    - subject: 'supervisor: Improve multiroom code'
+      hash: 42a2e81faee90916cce6a4433b7ff7fe31c1ad67
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Tomás Migone <tomas@balena.io>
+        signed-off-by: Tomás Migone <tomas@balena.io>
+      author: Tomás Migone
+      nested: []
+    - subject: 'compose: remove test env var'
+      hash: 18fd94b5cc1d80a25d0515bb712dce0a409ef255
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Tomás Migone <tomas@balena.io>
+        signed-off-by: Tomás Migone <tomas@balena.io>
+      author: Tomás Migone
+      nested: []
+    - subject: 'multiroom: fix bug where device would announce itself on startup'
+      hash: 8f2b6a216bd23872fe8d62f7cba9a86fa5efdad5
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Tomás Migone <tomas@balena.io>
+        signed-off-by: Tomás Migone <tomas@balena.io>
+      author: Tomás Migone
+      nested: []
+    - subject: 'rpi4: pin spotify dockerfile to rpi3 32 bit'
+      hash: ff3583e33a9f78ad4493db24216046affd120a83
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Tomás Migone <tomas@balena.io>
+        signed-off-by: Tomás Migone <tomas@balena.io>
+      author: Tomás Migone
+      nested: []
+    - subject: 'spotify: replace precompiled binaries for raspotify + alsa bridge'
+      hash: 56a3913194f946bc3fe8256f61dc1f41288f9a85
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Tomás Migone <tomas@balena.io>
+        signed-off-by: Tomás Migone <tomas@balena.io>
+      author: Tomás Migone
+      nested: []
+    - subject: 'multiroom: Pin alpine to 3.12 to avoid bugs in edge.'
+      hash: d61a34956592be6b8547b2e70e1e2d9a64a5bfea
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Tomás Migone <tomas@balena.io>
+        signed-off-by: Tomás Migone <tomas@balena.io>
+      author: Tomás Migone
+      nested: []
+    - subject: 'supervisor: Fix setMode bug'
+      hash: 04d0d6a54fa69244b3237cf67756ec1291421526
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Tomás Migone <tomas@balena.io>
+        signed-off-by: Tomás Migone <tomas@balena.io>
+      author: Tomás Migone
+      nested: []
+    - subject: 'airplay: fix race condition when starting up'
+      hash: e5b207e4be3a066ba2a74739e1059a144564003b
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Tomás Migone <tomas@balena.io>
+        signed-off-by: Tomás Migone <tomas@balena.io>
+      author: Tomás Migone
+      nested: []
+    - subject: 'secret-ui: add mode selection'
+      hash: 750b8ffb23d316d9b5a73c08bd3065d4e1146177
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Tomás Migone <tomas@balena.io>
+        signed-off-by: Tomás Migone <tomas@balena.io>
+      author: Tomás Migone
+      nested: []
+    - subject: 'airplay: add support'
+      hash: 442292b9df9b2ab9f5f6fbea16e3169d32cbc676
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Tomás Migone <tomas@balena.io>
+        signed-off-by: Tomás Migone <tomas@balena.io>
+      author: Tomás Migone
+      nested: []
+    - subject: 'supervisor: API, add setMode endpoint'
+      hash: b069384d4788fecf528cd8120aab5d9f62170c15
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Tomás Migone <tomas@balena.io>
+        signed-off-by: Tomás Migone <tomas@balena.io>
+      author: Tomás Migone
+      nested: []
+    - subject: Make core services wait on sound supervisor to start.
+      hash: f316d5e6710212148629cc472c93a2af2969a7df
+      body: |
+        This is a lot more robust when services don't start simultaneously.
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Tomás Migone <tomas@balena.io>
+        signed-off-by: Tomás Migone <tomas@balena.io>
+      author: Tomás Migone
+      nested: []
+    - subject: 'multiroom: add force master feature'
+      hash: b3c36af343b522e5e425a1bba096c989d823c706
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Tomás Migone <tomas@balena.io>
+        signed-off-by: Tomás Migone <tomas@balena.io>
+      author: Tomás Migone
+      nested: []
+    - subject: 'meta: moved folders around'
+      hash: 56a0d1ade92f1398f91eeec13f009d3565850a4a
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Tomás Migone <tomas@balena.io>
+        signed-off-by: Tomás Migone <tomas@balena.io>
+      author: Tomás Migone
+      nested: []
+    - subject: 'supervisor: use anonymous auth with audio block'
+      hash: b4acfc90afcd3e78f272e0f1f7ef51f26aef557b
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Tomás Migone <tomas@balena.io>
+        signed-off-by: Tomás Migone <tomas@balena.io>
+      author: Tomás Migone
+      nested: []
+    - subject: 'audio: env var fallback for mode'
+      hash: e07da91d38e156f3a2c2448a47fd941da9852744
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Tomás Migone <tomas@balena.io>
+        signed-off-by: Tomás Migone <tomas@balena.io>
+      author: Tomás Migone
+      nested: []
+    - subject: >-
+        Provide env var fallback for services in case sound supervisor is not
+        available
+      hash: bc6dafd98b356f6acd8a4325eadc321b54dd98bf
+      body: ''
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: Tomás Migone <tomas@balena.io>
+        signed-off-by: Tomás Migone <tomas@balena.io>
+      author: Tomás Migone
+      nested: []
+    - subject: 'env vars: update to use SOUND_ prefix'
+      hash: e92ef2da922d1bdde6bfc3eb8778192b0df61a89
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Tomás Migone <tomas@balena.io>
+        signed-off-by: Tomás Migone <tomas@balena.io>
+      author: Tomás Migone
+      nested: []
+    - subject: Fix minor issues.
+      hash: 10942cb9172f9349f0e5669a676e01abe6a409d9
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Tomás Migone <tomas@balena.io>
+        signed-off-by: Tomás Migone <tomas@balena.io>
+      author: Tomás Migone
+      nested: []
+    - subject: 'supervisor: add audio block endpoints and secret ui'
+      hash: 2993dd306d65534a24020c50d183afefd94a7bee
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Tomás Migone <tomas@balena.io>
+        signed-off-by: Tomás Migone <tomas@balena.io>
+      author: Tomás Migone
+      nested: []
+    - subject: 'plugins: use supervisor API, spotify use prebuilt binaries'
+      hash: 8024a2e50433b0fd0cd5d34c06ad4dbc69c1e7d3
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Tomás Migone <tomas@balena.io>
+        signed-off-by: Tomás Migone <tomas@balena.io>
+      author: Tomás Migone
+      nested: []
+    - subject: 'core: fix types error that prevented building in prod'
+      hash: 001911cfaac2a04c1efa7b4a35e4f27b09cecbd9
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Tomás Migone <tomas@balena.io>
+        signed-off-by: Tomás Migone <tomas@balena.io>
+      author: Tomás Migone
+      nested: []
+    - subject: 'supervisor: only run fleet logic in multiroom mode'
+      hash: dc2c76e5471aead6d6de1843fe085651d4e7b739
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Tomás Migone <tomas@balena.io>
+        signed-off-by: Tomás Migone <tomas@balena.io>
+      author: Tomás Migone
+      nested: []
+    - subject: 'supervisor: Add missing events and remove old code.'
+      hash: 1f55186ce79bb0abe7b45263eb12d5ae66bed88f
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Tomás Migone <tomas@balena.io>
+        signed-off-by: Tomás Migone <tomas@balena.io>
+      author: Tomás Migone
+      nested: []
+    - subject: >-
+        Added platform blacklist for multi-room. Refactored sound supervisor a
+        bit.
+      hash: 5c7b194eb32e48d2398d40b64abd0107cf79c4bb
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Tomás Migone <tomas@balena.io>
+        signed-off-by: Tomás Migone <tomas@balena.io>
+      author: Tomás Migone
+      nested: []
+    - subject: 'upnp: update pulse server'
+      hash: 308424dd009c791b6b9a7cf3a88aca2d3b8fa192
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Tomás Migone <tomas@balena.io>
+        signed-off-by: Tomás Migone <tomas@balena.io>
+      author: Tomás Migone
+      nested: []
+    - subject: 'spotify: fix audio block target'
+      hash: b6ac4ba312812492f3691bceb02c6fb8d2883639
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Tomás Migone <tomas@balena.io>
+        signed-off-by: Tomás Migone <tomas@balena.io>
+      author: Tomás Migone
+      nested: []
+    - subject: 'Finished wiring audio block, first migration of supervisor too.'
+      hash: 99605b83af27c85d1459d1edcb5e99e2f320ecab
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Tomás Migone <tomas@balena.io>
+        signed-off-by: Tomás Migone <tomas@balena.io>
+      author: Tomás Migone
+      nested: []
+    - subject: >-
+        Multiple changes: - Huge docker-compose refactor and cleanup - Basic
+        sound modes should now work - bluetooth plugin working too
+      hash: 785ac657de670eb667f91be5f35c7da4e6ac3b91
+      body: ''
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: Tomás Migone <tomas@balena.io>
+        signed-off-by: Tomás Migone <tomas@balena.io>
+      author: Tomás Migone
+      nested: []
+    - subject: 'multiroom changes, not working'
+      hash: 37ce27d36d5f5a696b91e571cbebf5d12275ab84
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Tomás Migone <tomas@balena.io>
+        signed-off-by: Tomás Migone <tomas@balena.io>
+      author: Tomás Migone
+      nested: []
+    - subject: balenaSound 3.x - initial version
+      hash: 788b6898a17ff55216e6e764b3d90b3c30c1756e
+      body: |
+        Currently not building due to primitives missing rpi images.
+
+        Changes:
+        - Added audio primitive
+        - Refactor project structure
+      footer:
+        Change-type: major
+        change-type: major
+        Signed-off-by: Tomás Migone <tomas@balena.io>
+        signed-off-by: Tomás Migone <tomas@balena.io>
+      author: Tomás Migone
+      nested: []
+  version: 3.0.0
+  date: 2020-09-05T08:50:20.177Z
+- commits:
     - subject: 'spotify: Environment variable to switch volume normalisation'
       hash: bd335ca860eaf74ebf6c4fa2560b2cfe56e44acd
       body: ''
